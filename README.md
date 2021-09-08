@@ -42,15 +42,19 @@ La clave del usuario ADMIN es **0000**. Al ingresar este código, permite realiz
 El usuario ADMIN puede agregar preguntas desde la opción 1, ver resultados con la opción 2 o cargar preguntas desde archivos con la opción 3. Para cargar archivos, sólo se debe escribir el nombre del archivo sin la extensión y debe estar guardado en la carpeta /res. Igualmente, al agregar preguntas, se puede escoger la opción de guardar las preguntas insertadas en un archivo, darle un nombre y quedará allí guardado en la carpeta /res.
 
 * Agregar preguntas
+
 ![](img/3.png)
 
 * Guardar preguntas
+
 ![](img/4.png)
 
 * Cargar preguntas
+
 ![](img/6.png)
 
 * Ver resultados
+
 ![](img/5.png)
 
 Los usuarios Aspirante pueden resolver las preguntas creadas o cargadas. Al ingresar, pedirá un nombre para el registro y luego podrá resolver las preguntas. Al final se mostrará un mensaje validando el resultado.
@@ -58,4 +62,5 @@ Los usuarios Aspirante pueden resolver las preguntas creadas o cargadas. Al ingr
 ![](img/7.png)
 
 * Final de prueba
+
 ![](img/7.png)
