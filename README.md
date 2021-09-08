@@ -63,4 +63,8 @@ Los usuarios Aspirante pueden resolver las preguntas creadas o cargadas. Al ingr
 
 * Final de prueba
 
-![](img/7.png)
+![](img/8.png)
+
+### Diagrama de clases
+
+![](img/9.png)
