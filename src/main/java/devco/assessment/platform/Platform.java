@@ -41,7 +41,7 @@ public class Platform implements Serializable {
      */
     public void checkQuestions() {
         if (questions.size() < 8) {
-            System.out.println("No hay suficientes preguntas disponibles. Intente más tarde");
+            System.out.println("No hay suficientes preguntas disponibles. Intente mas tarde");
             System.exit(0);
         } else {
             System.out.println("Bienvenido al test.");

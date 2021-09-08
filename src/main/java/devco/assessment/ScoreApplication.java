@@ -27,12 +27,12 @@ public class ScoreApplication {
             System.out.println("ADMIN: Digite la clave");
             System.out.println("Aspirante: Pulse cualquier tecla");
             System.out.println("Salir: Digite 9");
-            System.out.println("> Digite su opción: ");
+            System.out.println("> Digite su opcion: ");
 
             String option = scanner.nextLine();
             if (option.equals("0000")) {
                 platform.setMode(1);
-                System.out.println("Bienvenido ADMIN. Digite el número de su opción.");
+                System.out.println("Bienvenido ADMIN. Digite el numero de su opcion.");
                 System.out.println("1. Agregar preguntas");
                 System.out.println("2. Ver resultados de los aspirantes");
                 System.out.println("3. Cargar preguntas por archivo");
@@ -41,10 +41,10 @@ public class ScoreApplication {
                 while (adminOption.equals("1")) {
                     System.out.println("> Escriba el enunciado de la pregunta.");
                     String qStatement = scanner.nextLine();
-                    System.out.println("> Escriba la respuesta a la pregunta (números o todo minúsculas).");
+                    System.out.println("> Escriba la respuesta a la pregunta (numeros o todo minusculas).");
                     String qAnswer = scanner.nextLine();
                     platform.addQuestion(qStatement, qAnswer);
-                    System.out.println("> ¿Desea agregar otra pergunta? (1. Sí, 0. No, 5. Guardar en archivo).");
+                    System.out.println("> ¿Desea agregar otra pergunta? (1. Si, 0. No, 5. Guardar en archivo).");
                     adminOption = scanner.nextLine();
                 }
                 while (adminOption.equals("2")) {
@@ -55,7 +55,7 @@ public class ScoreApplication {
                                 + applicant.getScore() + " puntos.");
                     }
                     System.out.println("-- Fin de los resultados. --");
-                    System.out.println("> Digite una opción");
+                    System.out.println("> Digite una opcion");
                     System.out.println("1. Agregar preguntas");
                     System.out.println("2. Ver resultados de los aspirantes");
                     System.out.println("Cualquier otra tecla para salir");
@@ -80,7 +80,7 @@ public class ScoreApplication {
                 String uName = scanner.nextLine();
                 platform.addUser(uName);
                 System.out.println(
-                        "En este momento espezarán a aparacer las preguntas. Las respuestas son números o texto únicamente en minúscula");
+                        "En este momento espezarán a aparacer las preguntas. Las respuestas son números o texto unicamente en minuscula");
                 ArrayList<Question> questions = platform.startTest();
                 int score = 0;
                 int i = 1;
