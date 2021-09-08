@@ -80,7 +80,7 @@ public class ScoreApplication {
                 String uName = scanner.nextLine();
                 platform.addUser(uName);
                 System.out.println(
-                        "En este momento espezarán a aparacer las preguntas. Las respuestas son números o texto unicamente en minuscula");
+                        "En este momento espezaran a aparacer las preguntas. Las respuestas son numeros o texto unicamente en minuscula");
                 ArrayList<Question> questions = platform.startTest();
                 int score = 0;
                 int i = 1;
